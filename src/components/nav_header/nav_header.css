@@ -1,0 +1,47 @@
+.all{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_nick{
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: rgb(27, 27, 27); */
+}
+
+.nick_img{
+    height: 50px;
+    border-radius: 15px;
+}
+
+.h2_nick{
+    color: rgb(164, 171, 137);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.div_btn{
+    width: 170px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(27, 27, 27);
+    border-radius: 30px;
+}
+
+.btn_img{
+    height: 40px;
+    border-radius: 50px;
+}
+.btn_h2{
+    color: rgb(164, 171, 137);
+    font-size: 16px;
+    font-weight: 500;
+}
