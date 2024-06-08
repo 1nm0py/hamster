@@ -5,7 +5,7 @@ import coin_02 from "../../assets/btn_part_img/coin_02.png"
 import energy_01 from "../../assets/btn_part_img/energy.png"
 import boost_01 from "../../assets/btn_part_img/boost.png"
 import i_znak from "../../assets/btn_part_img/i_znak.png"
-import hams_coin_01 from "../../assets/btn_part_img/hamster_kombat_click.png"
+import hams_coin_01 from "../../assets/btn_part_img/hamster-coin.png"
 
 
 export default function btn_part() {
@@ -36,26 +36,26 @@ export default function btn_part() {
                     </div>
                 </div>
                 <div className="hams_sum">
-                    <img src={coin_02} alt="" />
-                    <h1 className="coin_sum">3 000</h1>
+                    <img src={coin_02} alt="" className="Coin_sum_001"/>
+                    <h1 className="coin_sum">3 300 003 300</h1>
                 </div>
                 <div className="hams_line">
                     <div className="up_hams_line">
-                        <p className="level_p_01">Diamond</p>
-                        <p className="level_P_02">Level 7/10</p>
+                        <p className="level_p_01">Lord</p>
+                        <p className="level_p_01">Level 9/10</p>
                     </div>
                     <div className="div_line_01"></div>
                 </div>
                 <div className="hams_clickk">
-                    <img src={hams_coin_01} alt="" />
+                    <img src={hams_coin_01} alt="" className="Big_coin_01"/>
                 </div>
                 <div className="hams_energy">
                     <div className="energy">
-                        <img src={energy_01} alt="" />
-                        <p className="energy_P_01">10000 / 15000</p>
+                        <img src={energy_01} alt="" className="Finish_img" />
+                        <p className="boost_P_01">10000 / 15000</p>
                     </div>
                     <div className="boost">
-                        <img src={boost_01} alt="" />
+                        <img src={boost_01} alt="" className="Finish_img" />
                         <p className="boost_P_01">Boost</p>
                     </div>
                 </div>

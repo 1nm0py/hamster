@@ -1,48 +1,118 @@
-.all_hams{
+.all_hams {
     width: 560px;
     margin: auto;
     padding: 10px;
     border-radius: 25px;
-    background: rgb(28,31,36);
+    background: rgb(28, 31, 36);
 }
-.hams_manu{
+
+.hams_manu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.hams_menu_part_01{
+
+.hams_menu_part_01 {
     cursor: pointer;
     border-radius: 15px;
     text-align: center;
     width: 180px;
     background: rgb(42, 43, 42);
 }
-.img_menu_part_coin{
+
+.img_menu_part_coin {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.img_menu_part_coin{
+
+.img_menu_part_coin {
     height: 30px;
 }
-.hams_menu_P{
+
+.hams_menu_P {
     margin-top: 0;
     margin-bottom: 0;
 }
-#pribl{
+
+#pribl {
     color: orange;
 }
-#monet{
+
+#monet {
     color: blue;
 }
-#chas{
+
+#chas {
     color: green;
 }
-.hams_coin001{
+
+.hams_coin001 {
     height: 30px;
 }
-.sum_cin_part{
+
+.sum_cin_part {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
+}
+
+.hams_sum {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    color: #fff;
+}
+
+.Coin_sum_001 {
+    height: 70px;
+}
+
+.up_hams_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.level_p_01{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.div_line_01 {
+    width: 100%;
+    height: 10px;
+    background: rgb(37, 37, 37);
+    border: 2px solid rgb(86, 86, 86);
+    border-radius: 15px;
+}
+.hams_clickk{
+    text-align: center;
+}
+.Big_coin_01{
+    margin-top: 30px;
+    height: 350px;
+}
+.energy{
+    display: flex;
+    align-items: center;
+}
+.boost_P_01{
+    font-size: 18px;
+    color: #fff;
+}
+.Finish_img{
+    height: 50px;
+}
+.boost{
+    display: flex;
+    align-items: center;
+}
+.hams_energy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

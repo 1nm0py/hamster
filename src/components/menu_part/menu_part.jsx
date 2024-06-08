@@ -10,6 +10,7 @@ import "./menu_part.css"
 export default function menu_part() {
     return (
         <>
+        
             <Container>
                 <Row>
                     <div className="allbtn_part">
