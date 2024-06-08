@@ -14,24 +14,24 @@ export default function btn_part() {
             <div className="all_hams">
                 <div className="hams_manu">
                     <div className="hams_menu_part_01">
-                        <p className="hams_menu_P">Прибыль за тап</p>
+                        <p className="hams_menu_P" id="pribl">Прибыль за тап</p>
                         <div className="img_menu_part_coin">
-                            <img src={coin_01} alt="" />
+                            <img src={coin_01} alt="" className="hams_coin001"/>
                             <p className="sum_cin_part">+15</p>
                         </div>
                     </div>
                     <div className="hams_menu_part_01">
-                        <p className="hams_menu_P">Монет для апа</p>
+                        <p className="hams_menu_P" id="monet">Монет для апа</p>
                         <div className="img_menu_part_coin">
                             <p className="sum_cin_part">35K</p>
                         </div>
                     </div>
                     <div className="hams_menu_part_01">
-                        <p className="hams_menu_P">Прибыль в час</p>
+                        <p className="hams_menu_P" id="chas">Прибыль в час</p>
                         <div className="img_menu_part_coin">
-                            <img src={coin_01} alt="" />
+                            <img src={coin_01} alt="" className="hams_coin001"/>
                             <p className="sum_cin_part">+15</p>
-                            <img src={i_znak} alt="" />
+                            <img src={i_znak} alt="" className="hams_coin001"/>
                         </div>
                     </div>
                 </div>
