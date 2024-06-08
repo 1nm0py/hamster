@@ -5,7 +5,7 @@ import "./index.css"
 
 export default function App() {
   return (
-    <div className="all_React">
+    <div id="Glava">
       <Nav_header />
       <Btn_part />
       <Menu_part />

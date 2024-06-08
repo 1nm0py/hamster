@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap"
+// import { Container, Row } from "react-bootstrap"
 import hamyak_btn from "../../assets/img_menu_part/hamyak_menu.png"
 import kirka_btn from "../../assets/img_menu_part/mayning.png"
 import friends_btn from "../../assets/img_menu_part/friends.png"
@@ -11,8 +11,8 @@ export default function menu_part() {
     return (
         <>
         
-            <Container>
-                <Row>
+            {/* <Container> */}
+                {/* <Row> */}
                     <div className="allbtn_part">
                         <div className="btn_part_01">
                             <img src={hamyak_btn} alt="" className="menupart_btn" />
@@ -30,8 +30,8 @@ export default function menu_part() {
                             <img src={airdrop_btn} alt="" className="menupart_btn" />
                         </div>
                     </div>
-                </Row>
-            </Container>
+                {/* </Row> */}
+             {/* </Container> */}
         </>
     )
 }
